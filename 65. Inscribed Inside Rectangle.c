@@ -2,7 +2,7 @@
 int main()
 {
     int i, j, n;
-    scanf("&d", &n);
+    scanf("%d", &n);
     // upper half of the pattern
     for(i = 0; i < n; i++) 
     {
