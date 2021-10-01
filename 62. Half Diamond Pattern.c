@@ -6,7 +6,7 @@ int main()
 
 int i,j,s,N,count=0;
 
-scanf("&d&d",&s,&N);
+scanf("%d%d",&s,&N);
 
 for(i=s;count<4;count++)
 
@@ -14,7 +14,7 @@ for(i=s;count<4;count++)
 
 for(j=0;j<count+1;j++)
 
-printf("&d",i);
+printf("%d",i);
 
 printf("\n");
 
@@ -27,7 +27,7 @@ for(i=s+N-2;count>0;count--)
 
 for(j=0;j<count-1;j++)
 
-printf("&d",i);
+printf("%d",i);
 
 printf("\n");
 
