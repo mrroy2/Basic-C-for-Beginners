@@ -2,7 +2,7 @@
 int main() {
    int rows, coef = 1, space, i, j;
    printf("Enter the number of rows: ");
-   scanf("&d", &rows);
+   scanf("%d", &rows);
    for (i = 0; i < rows; i++) {
       for (space = 1; space <= rows - i; space++)
          printf("  ");
@@ -11,7 +11,7 @@ int main() {
             coef = 1;
          else
             coef = coef * (i - j + 1) / j;
-         printf("&4d", coef);
+         printf("%4d", coef);
       }
       printf("\n");
    }
